@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Canvas | Street Art Business</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">URBAN CANVAS</div>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>EL ARTE ESTÁ EN <span class="highlight">LA CALLE</span></h1>
+            <p>Conectamos el talento urbano con marcas que rompen moldes.</p>
+            <a href="#gallery" class="btn">Explorar Galería</a>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Obras Destacadas</h2>
+        <div class="grid-container">
+            <div class="art-card" data-name="Mural Neon">
+                <img src="https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?auto=format&fit=crop&w=800&q=80" alt="Street Art 1">
+            </div>
+            <div class="art-card" data-name="Graffiti Abstracto">
+                <img src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?auto=format&fit=crop&w=800&q=80" alt="Street Art 2">
+            </div>
+            <div class="art-card" data-name="Retrato Urbano">
+                <img src="https://images.unsplash.com/photo-1517644493125-04663f222e28?auto=format&fit=crop&w=800&q=80" alt="Street Art 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Hagamos algo <span class="highlight">épico</span></h2>
+            <form id="art-form">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Email corporativo" required>
+                <textarea placeholder="Cuéntanos tu proyecto..."></textarea>
+                <button type="submit" class="btn">Enviar Propuesta</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Urban Canvas - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
