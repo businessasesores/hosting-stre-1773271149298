@@ -8,19 +8,19 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Mensaje de confirmación del formulario
+// Mensaje de confirmaciÃ³n del formulario
 const form = document.getElementById('art-form');
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('¡Gracias por contactar con Urban Canvas! Nos pondremos en contacto pronto para crear algo increíble.');
+    alert('Â¡Gracias por contactar con Urban Canvas! Nos pondremos en contacto pronto para crear algo increÃ­ble.');
     form.reset();
 });
 
-// Animación simple al hacer clic en las tarjetas de arte
+// AnimaciÃ³n simple al hacer clic en las tarjetas de arte
 const cards = document.querySelectorAll('.art-card');
 cards.forEach(card => {
     card.addEventListener('click', () => {
         const name = card.getAttribute('data-name');
-        console.log(`Interés en la obra: ${name}`);
+        console.log(`InterÃ©s en la obra: ${name}`);
     });
 });
